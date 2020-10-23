@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+  overflow-x: hidden;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #000;
+
+  h1 {
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  nav {
+    background-color: rgba(107, 107, 107, 0.548);
+    padding: 1rem 1.5rem;
+    &,
+    a {
+      color: #fff;
+    }
+
+    a {
+      font-weight: 700;
+      margin-right: 1rem;
+      &.active {
+        color: rgb(199, 196, 18);
+      }
+    }
+  }
+}
+main {
+  padding: 1rem;
+}
